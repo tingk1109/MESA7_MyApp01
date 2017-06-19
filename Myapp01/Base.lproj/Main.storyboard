@@ -22,8 +22,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEH-rt-Bpq">
-                                <rect key="frame" x="135.5" y="321.5" width="103.5" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEH-rt-Bpq">
+                                <rect key="frame" x="93.5" y="321.5" width="187.5" height="23"/>
+                                <color key="backgroundColor" red="0.13019331642368071" green="1" blue="0.61553529857119726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -89,6 +90,7 @@
                             <constraint firstItem="qtX-yl-Zfy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="efb-gm-uI1"/>
                             <constraint firstItem="qOz-KB-M7w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.4" id="jRK-kA-oXc"/>
                             <constraint firstItem="zOQ-L7-P3s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="lLd-i9-SkF"/>
+                            <constraint firstItem="eEH-rt-Bpq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="oKe-jX-gHI"/>
                             <constraint firstItem="kyt-3Z-f5Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.7" id="uNp-Ru-e51"/>
                         </constraints>
                     </view>
